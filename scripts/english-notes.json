@@ -1,0 +1,977 @@
+{
+  "I": {
+    "pos": "人称代词",
+    "note": "指说话的“我”。无论在句首还是句中，I 都必须大写。",
+    "example": "I am nine years old.",
+    "translation": "我九岁了。"
+  },
+  "you": {
+    "pos": "人称代词",
+    "note": "既可指一个“你”，也可指多个“你们”；根据上下文判断。",
+    "example": "You are my friend.",
+    "translation": "你是我的朋友。"
+  },
+  "he": {
+    "pos": "人称代词",
+    "note": "表示他，常用来代替前面提到的男性，在句中作主语。",
+    "example": "He is my brother.",
+    "translation": "他是我的兄弟。"
+  },
+  "she": {
+    "pos": "人称代词",
+    "note": "表示她，常用来代替前面提到的女性，在句中作主语。",
+    "example": "She is my sister.",
+    "translation": "她是我的姐妹。"
+  },
+  "it": {
+    "pos": "人称代词",
+    "note": "常指事物或动物，也可以在句中用于谈论天气、时间。",
+    "example": "It is a little bird.",
+    "translation": "它是一只小鸟。"
+  },
+  "we": {
+    "pos": "人称代词",
+    "note": "指包括说话人在内的“我们”。",
+    "example": "We go to school together.",
+    "translation": "我们一起上学。"
+  },
+  "they": {
+    "pos": "人称代词",
+    "note": "表示他们、她们或它们，通常指多个人或事物。",
+    "example": "They are reading.",
+    "translation": "他们正在读书。"
+  },
+  "my": {
+    "pos": "物主限定词",
+    "note": "表示“我的”，后面通常接名词，例如 my book（我的书）。",
+    "example": "This is my book.",
+    "translation": "这是我的书。"
+  },
+  "mine": {
+    "pos": "物主代词",
+    "note": "表示“我的（东西）”，可以单独使用，不再紧接被代替的名词。",
+    "example": "This book is mine.",
+    "translation": "这本书是我的。"
+  },
+  "your": {
+    "pos": "物主限定词",
+    "note": "表示你的或你们的，后面通常接名词。your book 可以是你的书，也可以是你们的书。"
+  },
+  "yours": {
+    "pos": "物主代词",
+    "note": "表示你的（东西）或你们的（东西），可以单独使用，如 This pen is yours.（这支钢笔是你的。）"
+  },
+  "her": {
+    "pos": "代词；限定词",
+    "note": "可作 she 的宾格，表示她；也可放在名词前表示她的。比较 I help her. 和 her book。"
+  },
+  "his": {
+    "pos": "物主代词；限定词",
+    "note": "表示他的，既能放在名词前，也能独立使用。his book 是他的书，The book is his. 是这本书是他的。"
+  },
+  "its": {
+    "pos": "物主限定词",
+    "note": "表示它的，后面接名词。不要与 it's 混淆：it's 是 it is 或 it has 的缩写。"
+  },
+  "our": {
+    "pos": "物主限定词",
+    "note": "表示我们的，通常放在名词前，如 our school（我们的学校）。"
+  },
+  "their": {
+    "pos": "物主限定词",
+    "note": "表示他们的、她们的或它们的，通常放在名词前，如 their classroom（他们的教室）。"
+  },
+  "a": {
+    "pos": "冠词",
+    "note": "用于辅音音素开头的单数可数名词前，表示一个。判断看读音，而不只看字母。",
+    "example": "This is a dog.",
+    "translation": "这是一只狗。"
+  },
+  "an": {
+    "pos": "冠词",
+    "note": "用于元音音素开头的单数可数名词前，如 an apple。判断依据是读音。",
+    "example": "It is an orange.",
+    "translation": "这是一个橙子。"
+  },
+  "the": {
+    "pos": "冠词",
+    "note": "常用于双方都知道的人或事物前，也可用于前面已经提到过的事物前。",
+    "example": "Please open the door.",
+    "translation": "请打开门。"
+  },
+  "apple": {
+    "pos": "名词",
+    "note": "指苹果。以元音音素开头，表示一个苹果用 an apple；复数是 apples。",
+    "example": "I eat an apple.",
+    "translation": "我吃一个苹果。"
+  },
+  "water": {
+    "pos": "名词；动词",
+    "note": "作名词表示水，通常不可数；作动词可表示给植物浇水。",
+    "example": "Please drink some water.",
+    "translation": "请喝一些水。"
+  },
+  "book": {
+    "pos": "名词；动词",
+    "note": "常指书，一本书是 a book。作动词还可以表示预订。",
+    "example": "I read a book every day.",
+    "translation": "我每天读一本书。"
+  },
+  "library": {
+    "pos": "名词",
+    "note": "收藏图书、供人阅读和借阅的场所。复数把 y 改成 ies：libraries。",
+    "example": "We read books in the library.",
+    "translation": "我们在图书馆里读书。"
+  },
+  "read": {
+    "pos": "动词",
+    "phonetic": "/riːd/",
+    "note": "表示阅读。原形读 /riːd/；过去式拼写还是 read，但读 /red/。本题学习原形。",
+    "example": "I like to read stories.",
+    "translation": "我喜欢读故事。"
+  },
+  "live": {
+    "pos": "动词",
+    "phonetic": "/lɪv/",
+    "note": "这里表示居住，读 /lɪv/。作形容词表示现场直播的时读 /laɪv/。",
+    "example": "I live in Beijing.",
+    "translation": "我住在北京。"
+  },
+  "close": {
+    "pos": "动词",
+    "phonetic": "/kloʊz/",
+    "note": "这里表示关闭，末尾发 /z/。作形容词表示近的时，末尾通常发 /s/。",
+    "example": "Please close the door.",
+    "translation": "请把门关上。"
+  },
+  "wind": {
+    "pos": "名词",
+    "phonetic": "/wɪnd/",
+    "note": "这里指风，读 /wɪnd/。表示缠绕的动词 wind 读 /waɪnd/。",
+    "example": "The wind is strong today.",
+    "translation": "今天风很大。"
+  },
+  "play": {
+    "pos": "动词",
+    "note": "可表示玩、参加球类运动或演奏。球类前通常不加 the，乐器前通常加 the。",
+    "example": "We play football after school.",
+    "translation": "我们放学后踢足球。"
+  },
+  "run": {
+    "pos": "动词",
+    "note": "常表示跑，也可以描述机器运行。这里先学习跑步的意思。过去式是 ran。",
+    "example": "I can run fast.",
+    "translation": "我能跑得很快。"
+  },
+  "borrow": {
+    "pos": "动词",
+    "note": "从别人那里借来东西。lend 表示把自己的东西借给别人，两者方向不同。",
+    "example": "May I borrow your pencil?",
+    "translation": "我可以借用你的铅笔吗？"
+  },
+  "lend": {
+    "pos": "动词",
+    "note": "把东西借给别人。与 borrow（借入）的方向不同。",
+    "example": "Can you lend me a pencil?",
+    "translation": "你能借给我一支铅笔吗？"
+  },
+  "wear": {
+    "pos": "动词",
+    "note": "强调穿在身上或戴在身上的状态。put on 强调穿、戴的动作。",
+    "example": "I wear a coat in winter.",
+    "translation": "我冬天穿外套。"
+  },
+  "listen": {
+    "pos": "动词",
+    "note": "强调主动去听。接听的对象时通常用 listen to。",
+    "example": "Listen to the music.",
+    "translation": "听这段音乐。"
+  },
+  "hear": {
+    "pos": "动词",
+    "note": "强调听到了声音，listen 更强调主动去听的动作。",
+    "example": "I can hear a bird.",
+    "translation": "我能听到鸟叫。"
+  },
+  "look": {
+    "pos": "动词",
+    "note": "强调主动看。接看的对象时，常用 look at。",
+    "example": "Look at the picture.",
+    "translation": "看这幅画。"
+  },
+  "see": {
+    "pos": "动词",
+    "note": "常表示看见，强调视觉得到的结果。",
+    "example": "I can see the moon.",
+    "translation": "我能看见月亮。"
+  },
+  "watch": {
+    "pos": "动词；名词",
+    "note": "作动词常表示观看活动中的事物；作名词还可以表示手表。",
+    "example": "We watch a football game.",
+    "translation": "我们看一场足球比赛。"
+  },
+  "much": {
+    "pos": "限定词",
+    "note": "常用来修饰不可数名词，如 much water。询问多少水可以说 How much water...?",
+    "example": "How much water do you need?",
+    "translation": "你需要多少水？"
+  },
+  "many": {
+    "pos": "限定词",
+    "note": "常修饰可数名词复数，如 many books。询问多少本书可以说 How many books...?",
+    "example": "How many books do you have?",
+    "translation": "你有多少本书？"
+  },
+  "some": {
+    "pos": "限定词",
+    "note": "表示一些，可以修饰可数名词复数或不可数名词，如 some books、some water。"
+  },
+  "homework": {
+    "pos": "名词",
+    "note": "表示家庭作业，通常不可数，不说 a homework 或 homeworks。",
+    "example": "I do my homework after school.",
+    "translation": "我放学后做家庭作业。"
+  },
+  "family": {
+    "pos": "名词",
+    "note": "可指家庭，也可以指一家人。复数是 families。",
+    "example": "I love my family.",
+    "translation": "我爱我的家人。"
+  },
+  "friend": {
+    "pos": "名词",
+    "note": "指朋友。friend 是名词，friendly 则是形容词，表示友好的。",
+    "example": "My friend is kind.",
+    "translation": "我的朋友很友善。"
+  },
+  "weather": {
+    "pos": "名词",
+    "note": "表示天气，通常不可数。谈论天气常用 It is sunny 等表达。",
+    "example": "The weather is sunny today.",
+    "translation": "今天天气晴朗。"
+  },
+  "Chinese": {
+    "pos": "名词；形容词",
+    "note": "可表示汉语、语文、中国人或中国的，首字母 C 要大写。",
+    "example": "We have Chinese on Monday.",
+    "translation": "我们星期一有语文课。"
+  },
+  "English": {
+    "pos": "名词；形容词",
+    "note": "可表示英语或英国的。作为语言名称时，首字母 E 要大写。",
+    "example": "I like English.",
+    "translation": "我喜欢英语。"
+  },
+  "practice": {
+    "pos": "名词；动词（美式）",
+    "note": "可表示练习。英式英语中名词写 practice，动词通常写 practise。"
+  },
+  "practise": {
+    "pos": "动词（英式）",
+    "note": "表示练习，是英式英语的动词拼写；美式英语通常写 practice。",
+    "example": "I practise typing every day.",
+    "translation": "我每天练习打字。"
+  },
+  "cat": {
+    "pos": "名词",
+    "note": "这里指猫，是可数名词。表示一个时，需要与 a 或 an 等词搭配；谈论多个时留意复数形式。",
+    "example": "This is a cat.",
+    "translation": "这是猫。"
+  },
+  "dog": {
+    "pos": "名词",
+    "note": "这里指狗，是可数名词。表示一个时，需要与 a 或 an 等词搭配；谈论多个时留意复数形式。",
+    "example": "This is a dog.",
+    "translation": "这是狗。"
+  },
+  "bird": {
+    "pos": "名词",
+    "note": "这里指鸟，是可数名词。表示一个时，需要与 a 或 an 等词搭配；谈论多个时留意复数形式。",
+    "example": "This is a bird.",
+    "translation": "这是鸟。"
+  },
+  "rabbit": {
+    "pos": "名词",
+    "note": "这里指兔子，是可数名词。表示一个时，需要与 a 或 an 等词搭配；谈论多个时留意复数形式。",
+    "example": "This is a rabbit.",
+    "translation": "这是兔子。"
+  },
+  "duck": {
+    "pos": "名词",
+    "note": "这里指鸭子，是可数名词。表示一个时，需要与 a 或 an 等词搭配；谈论多个时留意复数形式。",
+    "example": "This is a duck.",
+    "translation": "这是鸭子。"
+  },
+  "elephant": {
+    "pos": "名词",
+    "note": "这里指大象，是可数名词。表示一个时，需要与 a 或 an 等词搭配；谈论多个时留意复数形式。",
+    "example": "This is an elephant.",
+    "translation": "这是大象。"
+  },
+  "tiger": {
+    "pos": "名词",
+    "note": "这里指老虎，是可数名词。表示一个时，需要与 a 或 an 等词搭配；谈论多个时留意复数形式。",
+    "example": "This is a tiger.",
+    "translation": "这是老虎。"
+  },
+  "lion": {
+    "pos": "名词",
+    "note": "这里指狮子，是可数名词。表示一个时，需要与 a 或 an 等词搭配；谈论多个时留意复数形式。",
+    "example": "This is a lion.",
+    "translation": "这是狮子。"
+  },
+  "panda": {
+    "pos": "名词",
+    "note": "这里指熊猫，是可数名词。表示一个时，需要与 a 或 an 等词搭配；谈论多个时留意复数形式。",
+    "example": "This is a panda.",
+    "translation": "这是熊猫。"
+  },
+  "monkey": {
+    "pos": "名词",
+    "note": "这里指猴子，是可数名词。表示一个时，需要与 a 或 an 等词搭配；谈论多个时留意复数形式。",
+    "example": "This is a monkey.",
+    "translation": "这是猴子。"
+  },
+  "horse": {
+    "pos": "名词",
+    "note": "这里指马，是可数名词。表示一个时，需要与 a 或 an 等词搭配；谈论多个时留意复数形式。",
+    "example": "This is a horse.",
+    "translation": "这是马。"
+  },
+  "sheep": {
+    "pos": "名词",
+    "note": "这里指绵羊，是可数名词。表示一个时，需要与 a 或 an 等词搭配；谈论多个时留意复数形式。",
+    "example": "This is a sheep.",
+    "translation": "这是绵羊。"
+  },
+  "cow": {
+    "pos": "名词",
+    "note": "这里指奶牛，是可数名词。表示一个时，需要与 a 或 an 等词搭配；谈论多个时留意复数形式。",
+    "example": "This is a cow.",
+    "translation": "这是奶牛。"
+  },
+  "fox": {
+    "pos": "名词",
+    "note": "这里指狐狸，是可数名词。表示一个时，需要与 a 或 an 等词搭配；谈论多个时留意复数形式。",
+    "example": "This is a fox.",
+    "translation": "这是狐狸。"
+  },
+  "bear": {
+    "pos": "名词",
+    "note": "这里指熊，是可数名词。表示一个时，需要与 a 或 an 等词搭配；谈论多个时留意复数形式。",
+    "example": "This is a bear.",
+    "translation": "这是熊。"
+  },
+  "giraffe": {
+    "pos": "名词",
+    "note": "这里指长颈鹿，是可数名词。表示一个时，需要与 a 或 an 等词搭配；谈论多个时留意复数形式。",
+    "example": "This is a giraffe.",
+    "translation": "这是长颈鹿。"
+  },
+  "zebra": {
+    "pos": "名词",
+    "note": "这里指斑马，是可数名词。表示一个时，需要与 a 或 an 等词搭配；谈论多个时留意复数形式。",
+    "example": "This is a zebra.",
+    "translation": "这是斑马。"
+  },
+  "dolphin": {
+    "pos": "名词",
+    "note": "这里指海豚，是可数名词。表示一个时，需要与 a 或 an 等词搭配；谈论多个时留意复数形式。",
+    "example": "This is a dolphin.",
+    "translation": "这是海豚。"
+  },
+  "whale": {
+    "pos": "名词",
+    "note": "这里指鲸，是可数名词。表示一个时，需要与 a 或 an 等词搭配；谈论多个时留意复数形式。",
+    "example": "This is a whale.",
+    "translation": "这是鲸。"
+  },
+  "butterfly": {
+    "pos": "名词",
+    "note": "这里指蝴蝶，是可数名词。表示一个时，需要与 a 或 an 等词搭配；谈论多个时留意复数形式。",
+    "example": "This is a butterfly.",
+    "translation": "这是蝴蝶。"
+  },
+  "bee": {
+    "pos": "名词",
+    "note": "这里指蜜蜂，是可数名词。表示一个时，需要与 a 或 an 等词搭配；谈论多个时留意复数形式。",
+    "example": "This is a bee.",
+    "translation": "这是蜜蜂。"
+  },
+  "ant": {
+    "pos": "名词",
+    "note": "这里指蚂蚁，是可数名词。表示一个时，需要与 a 或 an 等词搭配；谈论多个时留意复数形式。",
+    "example": "This is an ant.",
+    "translation": "这是蚂蚁。"
+  },
+  "frog": {
+    "pos": "名词",
+    "note": "这里指青蛙，是可数名词。表示一个时，需要与 a 或 an 等词搭配；谈论多个时留意复数形式。",
+    "example": "This is a frog.",
+    "translation": "这是青蛙。"
+  },
+  "turtle": {
+    "pos": "名词",
+    "note": "这里指龟，是可数名词。表示一个时，需要与 a 或 an 等词搭配；谈论多个时留意复数形式。",
+    "example": "This is a turtle.",
+    "translation": "这是龟。"
+  },
+  "pencil": {
+    "pos": "名词",
+    "note": "这里指铅笔，是可数名词。表示一个时，需要与 a 或 an 等词搭配；谈论多个时留意复数形式。",
+    "example": "This is a pencil.",
+    "translation": "这是铅笔。"
+  },
+  "pen": {
+    "pos": "名词",
+    "note": "这里指钢笔，是可数名词。表示一个时，需要与 a 或 an 等词搭配；谈论多个时留意复数形式。",
+    "example": "This is a pen.",
+    "translation": "这是钢笔。"
+  },
+  "ruler": {
+    "pos": "名词",
+    "note": "这里指直尺，是可数名词。表示一个时，需要与 a 或 an 等词搭配；谈论多个时留意复数形式。",
+    "example": "This is a ruler.",
+    "translation": "这是直尺。"
+  },
+  "eraser": {
+    "pos": "名词",
+    "note": "这里指橡皮，是可数名词。表示一个时，需要与 a 或 an 等词搭配；谈论多个时留意复数形式。",
+    "example": "This is an eraser.",
+    "translation": "这是橡皮。"
+  },
+  "bag": {
+    "pos": "名词",
+    "note": "这里指包，是可数名词。表示一个时，需要与 a 或 an 等词搭配；谈论多个时留意复数形式。",
+    "example": "This is a bag.",
+    "translation": "这是包。"
+  },
+  "desk": {
+    "pos": "名词",
+    "note": "这里指书桌，是可数名词。表示一个时，需要与 a 或 an 等词搭配；谈论多个时留意复数形式。",
+    "example": "This is a desk.",
+    "translation": "这是书桌。"
+  },
+  "chair": {
+    "pos": "名词",
+    "note": "这里指椅子，是可数名词。表示一个时，需要与 a 或 an 等词搭配；谈论多个时留意复数形式。",
+    "example": "This is a chair.",
+    "translation": "这是椅子。"
+  },
+  "table": {
+    "pos": "名词",
+    "note": "这里指桌子，是可数名词。表示一个时，需要与 a 或 an 等词搭配；谈论多个时留意复数形式。",
+    "example": "This is a table.",
+    "translation": "这是桌子。"
+  },
+  "bed": {
+    "pos": "名词",
+    "note": "这里指床，是可数名词。表示一个时，需要与 a 或 an 等词搭配；谈论多个时留意复数形式。",
+    "example": "This is a bed.",
+    "translation": "这是床。"
+  },
+  "door": {
+    "pos": "名词",
+    "note": "这里指门，是可数名词。表示一个时，需要与 a 或 an 等词搭配；谈论多个时留意复数形式。",
+    "example": "This is a door.",
+    "translation": "这是门。"
+  },
+  "window": {
+    "pos": "名词",
+    "note": "这里指窗户，是可数名词。表示一个时，需要与 a 或 an 等词搭配；谈论多个时留意复数形式。",
+    "example": "This is a window.",
+    "translation": "这是窗户。"
+  },
+  "clock": {
+    "pos": "名词",
+    "note": "这里指时钟，是可数名词。表示一个时，需要与 a 或 an 等词搭配；谈论多个时留意复数形式。",
+    "example": "This is a clock.",
+    "translation": "这是时钟。"
+  },
+  "computer": {
+    "pos": "名词",
+    "note": "这里指电脑，是可数名词。表示一个时，需要与 a 或 an 等词搭配；谈论多个时留意复数形式。",
+    "example": "This is a computer.",
+    "translation": "这是电脑。"
+  },
+  "phone": {
+    "pos": "名词",
+    "note": "这里指电话，是可数名词。表示一个时，需要与 a 或 an 等词搭配；谈论多个时留意复数形式。",
+    "example": "This is a phone.",
+    "translation": "这是电话。"
+  },
+  "camera": {
+    "pos": "名词",
+    "note": "这里指照相机，是可数名词。表示一个时，需要与 a 或 an 等词搭配；谈论多个时留意复数形式。",
+    "example": "This is a camera.",
+    "translation": "这是照相机。"
+  },
+  "ball": {
+    "pos": "名词",
+    "note": "这里指球，是可数名词。表示一个时，需要与 a 或 an 等词搭配；谈论多个时留意复数形式。",
+    "example": "This is a ball.",
+    "translation": "这是球。"
+  },
+  "kite": {
+    "pos": "名词",
+    "note": "这里指风筝，是可数名词。表示一个时，需要与 a 或 an 等词搭配；谈论多个时留意复数形式。",
+    "example": "This is a kite.",
+    "translation": "这是风筝。"
+  },
+  "bike": {
+    "pos": "名词",
+    "note": "这里指自行车，是可数名词。表示一个时，需要与 a 或 an 等词搭配；谈论多个时留意复数形式。",
+    "example": "This is a bike.",
+    "translation": "这是自行车。"
+  },
+  "bicycle": {
+    "pos": "名词",
+    "note": "这里指自行车，是可数名词。表示一个时，需要与 a 或 an 等词搭配；谈论多个时留意复数形式。",
+    "example": "This is a bicycle.",
+    "translation": "这是自行车。"
+  },
+  "bus": {
+    "pos": "名词",
+    "note": "这里指公共汽车，是可数名词。表示一个时，需要与 a 或 an 等词搭配；谈论多个时留意复数形式。",
+    "example": "This is a bus.",
+    "translation": "这是公共汽车。"
+  },
+  "car": {
+    "pos": "名词",
+    "note": "这里指小汽车，是可数名词。表示一个时，需要与 a 或 an 等词搭配；谈论多个时留意复数形式。",
+    "example": "This is a car.",
+    "translation": "这是小汽车。"
+  },
+  "train": {
+    "pos": "名词",
+    "note": "这里指火车，是可数名词。表示一个时，需要与 a 或 an 等词搭配；谈论多个时留意复数形式。",
+    "example": "This is a train.",
+    "translation": "这是火车。"
+  },
+  "boat": {
+    "pos": "名词",
+    "note": "这里指小船，是可数名词。表示一个时，需要与 a 或 an 等词搭配；谈论多个时留意复数形式。",
+    "example": "This is a boat.",
+    "translation": "这是小船。"
+  },
+  "ship": {
+    "pos": "名词",
+    "note": "这里指轮船，是可数名词。表示一个时，需要与 a 或 an 等词搭配；谈论多个时留意复数形式。",
+    "example": "This is a ship.",
+    "translation": "这是轮船。"
+  },
+  "plane": {
+    "pos": "名词",
+    "note": "这里指飞机，是可数名词。表示一个时，需要与 a 或 an 等词搭配；谈论多个时留意复数形式。",
+    "example": "This is a plane.",
+    "translation": "这是飞机。"
+  },
+  "tree": {
+    "pos": "名词",
+    "note": "这里指树，是可数名词。表示一个时，需要与 a 或 an 等词搭配；谈论多个时留意复数形式。",
+    "example": "This is a tree.",
+    "translation": "这是树。"
+  },
+  "flower": {
+    "pos": "名词",
+    "note": "这里指花，是可数名词。表示一个时，需要与 a 或 an 等词搭配；谈论多个时留意复数形式。",
+    "example": "This is a flower.",
+    "translation": "这是花。"
+  },
+  "leaf": {
+    "pos": "名词",
+    "note": "这里指叶子，是可数名词。表示一个时，需要与 a 或 an 等词搭配；谈论多个时留意复数形式。",
+    "example": "This is a leaf.",
+    "translation": "这是叶子。"
+  },
+  "house": {
+    "pos": "名词",
+    "note": "这里指房子，是可数名词。表示一个时，需要与 a 或 an 等词搭配；谈论多个时留意复数形式。",
+    "example": "This is a house.",
+    "translation": "这是房子。"
+  },
+  "school": {
+    "pos": "名词",
+    "note": "这里指学校，是可数名词。表示一个时，需要与 a 或 an 等词搭配；谈论多个时留意复数形式。",
+    "example": "This is a school.",
+    "translation": "这是学校。"
+  },
+  "park": {
+    "pos": "名词",
+    "note": "这里指公园，是可数名词。表示一个时，需要与 a 或 an 等词搭配；谈论多个时留意复数形式。",
+    "example": "This is a park.",
+    "translation": "这是公园。"
+  },
+  "shop": {
+    "pos": "名词",
+    "note": "这里指商店，是可数名词。表示一个时，需要与 a 或 an 等词搭配；谈论多个时留意复数形式。",
+    "example": "This is a shop.",
+    "translation": "这是商店。"
+  },
+  "hospital": {
+    "pos": "名词",
+    "note": "这里指医院，是可数名词。表示一个时，需要与 a 或 an 等词搭配；谈论多个时留意复数形式。",
+    "example": "This is a hospital.",
+    "translation": "这是医院。"
+  },
+  "museum": {
+    "pos": "名词",
+    "note": "这里指博物馆，是可数名词。表示一个时，需要与 a 或 an 等词搭配；谈论多个时留意复数形式。",
+    "example": "This is a museum.",
+    "translation": "这是博物馆。"
+  },
+  "orange": {
+    "pos": "名词",
+    "note": "这里指橙子，是可数名词。表示一个时，需要与 a 或 an 等词搭配；谈论多个时留意复数形式。",
+    "example": "This is an orange.",
+    "translation": "这是橙子。"
+  },
+  "banana": {
+    "pos": "名词",
+    "note": "这里指香蕉，是可数名词。表示一个时，需要与 a 或 an 等词搭配；谈论多个时留意复数形式。",
+    "example": "This is a banana.",
+    "translation": "这是香蕉。"
+  },
+  "pear": {
+    "pos": "名词",
+    "note": "这里指梨，是可数名词。表示一个时，需要与 a 或 an 等词搭配；谈论多个时留意复数形式。",
+    "example": "This is a pear.",
+    "translation": "这是梨。"
+  },
+  "peach": {
+    "pos": "名词",
+    "note": "这里指桃子，是可数名词。表示一个时，需要与 a 或 an 等词搭配；谈论多个时留意复数形式。",
+    "example": "This is a peach.",
+    "translation": "这是桃子。"
+  },
+  "lemon": {
+    "pos": "名词",
+    "note": "这里指柠檬，是可数名词。表示一个时，需要与 a 或 an 等词搭配；谈论多个时留意复数形式。",
+    "example": "This is a lemon.",
+    "translation": "这是柠檬。"
+  },
+  "potato": {
+    "pos": "名词",
+    "note": "这里指土豆，是可数名词。表示一个时，需要与 a 或 an 等词搭配；谈论多个时留意复数形式。",
+    "example": "This is a potato.",
+    "translation": "这是土豆。"
+  },
+  "tomato": {
+    "pos": "名词",
+    "note": "这里指西红柿，是可数名词。表示一个时，需要与 a 或 an 等词搭配；谈论多个时留意复数形式。",
+    "example": "This is a tomato.",
+    "translation": "这是西红柿。"
+  },
+  "sandwich": {
+    "pos": "名词",
+    "note": "这里指三明治，是可数名词。表示一个时，需要与 a 或 an 等词搭配；谈论多个时留意复数形式。",
+    "example": "This is a sandwich.",
+    "translation": "这是三明治。"
+  },
+  "cake": {
+    "pos": "名词",
+    "note": "这里指蛋糕，是可数名词。表示一个时，需要与 a 或 an 等词搭配；谈论多个时留意复数形式。",
+    "example": "This is a cake.",
+    "translation": "这是蛋糕。"
+  },
+  "egg": {
+    "pos": "名词",
+    "note": "这里指鸡蛋，是可数名词。表示一个时，需要与 a 或 an 等词搭配；谈论多个时留意复数形式。",
+    "example": "This is an egg.",
+    "translation": "这是鸡蛋。"
+  },
+  "hat": {
+    "pos": "名词",
+    "note": "这里指帽子，是可数名词。表示一个时，需要与 a 或 an 等词搭配；谈论多个时留意复数形式。",
+    "example": "This is a hat.",
+    "translation": "这是帽子。"
+  },
+  "cap": {
+    "pos": "名词",
+    "note": "这里指有帽檐的帽子，是可数名词。表示一个时，需要与 a 或 an 等词搭配；谈论多个时留意复数形式。",
+    "example": "This is a cap.",
+    "translation": "这是有帽檐的帽子。"
+  },
+  "coat": {
+    "pos": "名词",
+    "note": "这里指外套，是可数名词。表示一个时，需要与 a 或 an 等词搭配；谈论多个时留意复数形式。",
+    "example": "This is a coat.",
+    "translation": "这是外套。"
+  },
+  "shirt": {
+    "pos": "名词",
+    "note": "这里指衬衫，是可数名词。表示一个时，需要与 a 或 an 等词搭配；谈论多个时留意复数形式。",
+    "example": "This is a shirt.",
+    "translation": "这是衬衫。"
+  },
+  "dress": {
+    "pos": "名词",
+    "note": "这里指连衣裙，是可数名词。表示一个时，需要与 a 或 an 等词搭配；谈论多个时留意复数形式。",
+    "example": "This is a dress.",
+    "translation": "这是连衣裙。"
+  },
+  "skirt": {
+    "pos": "名词",
+    "note": "这里指裙子，是可数名词。表示一个时，需要与 a 或 an 等词搭配；谈论多个时留意复数形式。",
+    "example": "This is a skirt.",
+    "translation": "这是裙子。"
+  },
+  "shoe": {
+    "pos": "名词",
+    "note": "这里指鞋，是可数名词。表示一个时，需要与 a 或 an 等词搭配；谈论多个时留意复数形式。",
+    "example": "This is a shoe.",
+    "translation": "这是鞋。"
+  },
+  "sock": {
+    "pos": "名词",
+    "note": "这里指短袜，是可数名词。表示一个时，需要与 a 或 an 等词搭配；谈论多个时留意复数形式。",
+    "example": "This is a sock.",
+    "translation": "这是短袜。"
+  },
+  "cup": {
+    "pos": "名词",
+    "note": "这里指杯子，是可数名词。表示一个时，需要与 a 或 an 等词搭配；谈论多个时留意复数形式。",
+    "example": "This is a cup.",
+    "translation": "这是杯子。"
+  },
+  "plate": {
+    "pos": "名词",
+    "note": "这里指盘子，是可数名词。表示一个时，需要与 a 或 an 等词搭配；谈论多个时留意复数形式。",
+    "example": "This is a plate.",
+    "translation": "这是盘子。"
+  },
+  "bowl": {
+    "pos": "名词",
+    "note": "这里指碗，是可数名词。表示一个时，需要与 a 或 an 等词搭配；谈论多个时留意复数形式。",
+    "example": "This is a bowl.",
+    "translation": "这是碗。"
+  },
+  "spoon": {
+    "pos": "名词",
+    "note": "这里指勺子，是可数名词。表示一个时，需要与 a 或 an 等词搭配；谈论多个时留意复数形式。",
+    "example": "This is a spoon.",
+    "translation": "这是勺子。"
+  },
+  "fork": {
+    "pos": "名词",
+    "note": "这里指餐叉，是可数名词。表示一个时，需要与 a 或 an 等词搭配；谈论多个时留意复数形式。",
+    "example": "This is a fork.",
+    "translation": "这是餐叉。"
+  },
+  "basket": {
+    "pos": "名词",
+    "note": "这里指篮子，是可数名词。表示一个时，需要与 a 或 an 等词搭配；谈论多个时留意复数形式。",
+    "example": "This is a basket.",
+    "translation": "这是篮子。"
+  },
+  "box": {
+    "pos": "名词",
+    "note": "这里指盒子，是可数名词。表示一个时，需要与 a 或 an 等词搭配；谈论多个时留意复数形式。",
+    "example": "This is a box.",
+    "translation": "这是盒子。"
+  },
+  "map": {
+    "pos": "名词",
+    "note": "这里指地图，是可数名词。表示一个时，需要与 a 或 an 等词搭配；谈论多个时留意复数形式。",
+    "example": "This is a map.",
+    "translation": "这是地图。"
+  },
+  "picture": {
+    "pos": "名词",
+    "note": "这里指图片，是可数名词。表示一个时，需要与 a 或 an 等词搭配；谈论多个时留意复数形式。",
+    "example": "This is a picture.",
+    "translation": "这是图片。"
+  },
+  "photo": {
+    "pos": "名词",
+    "note": "这里指照片，是可数名词。表示一个时，需要与 a 或 an 等词搭配；谈论多个时留意复数形式。",
+    "example": "This is a photo.",
+    "translation": "这是照片。"
+  },
+  "robot": {
+    "pos": "名词",
+    "note": "这里指机器人，是可数名词。表示一个时，需要与 a 或 an 等词搭配；谈论多个时留意复数形式。",
+    "example": "This is a robot.",
+    "translation": "这是机器人。"
+  },
+  "toy": {
+    "pos": "名词",
+    "note": "这里指玩具，是可数名词。表示一个时，需要与 a 或 an 等词搭配；谈论多个时留意复数形式。",
+    "example": "This is a toy.",
+    "translation": "这是玩具。"
+  },
+  "present": {
+    "phonetic": "/ˈprezənt/",
+    "pos": "名词；形容词",
+    "note": "作名词常表示礼物，作形容词可表示在场的、现在的，重音在前。表示呈现、赠送的动词读 /prɪˈzent/。",
+    "example": "This present is for you.",
+    "translation": "这份礼物是给你的。"
+  },
+  "lead": {
+    "phonetic": "/liːd/",
+    "pos": "动词",
+    "note": "表示带领、引导，读 /liːd/。表示金属铅的名词拼写相同，但读 /led/。",
+    "example": "Please lead the way.",
+    "translation": "请带路。"
+  },
+  "minute": {
+    "phonetic": "/ˈmɪnɪt/",
+    "pos": "名词",
+    "note": "表示分钟，一分钟有六十秒。拼写相同的形容词还可表示极小的，但读音不同。",
+    "example": "Please wait a minute.",
+    "translation": "请等一分钟。"
+  },
+  "schoolbag": {
+    "phonetic": "/ˈskuːlbæɡ/",
+    "pos": "名词",
+    "note": "指书包，由 school（学校）和 bag（包）组成。可以把两个熟悉的小词连起来记。",
+    "example": "My schoolbag is blue.",
+    "translation": "我的书包是蓝色的。"
+  },
+  "whiteboard": {
+    "phonetic": "/ˈwaɪtbɔːrd/",
+    "pos": "名词",
+    "note": "指白板，常用于教室或会议中书写、展示。white 是白色，board 是板。"
+  },
+  "maths": {
+    "phonetic": "/mæθs/",
+    "pos": "名词",
+    "note": "数学的英式常用简称；美式常用 math。两者都指数学这门学科。"
+  },
+  "yoghurt": {
+    "phonetic": "/ˈjoʊɡərt/",
+    "pos": "名词",
+    "note": "指酸奶。这是常见英式拼写，美式常写 yogurt。"
+  },
+  "letterbox": {
+    "phonetic": "/ˈletərbɑːks/",
+    "pos": "名词",
+    "note": "用于投放或接收信件的信箱、投信口。letter 是信，box 是箱。"
+  },
+  "litre": {
+    "phonetic": "/ˈliːtər/",
+    "pos": "名词",
+    "note": "容量单位升，1 升等于 1000 毫升。这是英式拼写，美式常写 liter。"
+  },
+  "organise": {
+    "phonetic": "/ˈɔːrɡənaɪz/",
+    "pos": "动词",
+    "note": "组织、安排，让事物有条理。这是常见英式拼写；organize 也很常用。"
+  },
+  "postcode": {
+    "phonetic": "/ˈpoʊstkoʊd/",
+    "pos": "名词",
+    "note": "邮政编码，用来帮助邮政系统找到投递区域。美式英语常说 ZIP code。"
+  },
+  "can": {
+    "phonetic": "/kæn/",
+    "pos": "情态动词；名词",
+    "note": "作情态动词表示能、会或可以，后面接动词原形。作名词可指罐头或罐子。",
+    "example": "I can swim.",
+    "translation": "我会游泳。"
+  },
+  "do": {
+    "phonetic": "/duː/",
+    "pos": "动词；助动词",
+    "note": "作动词表示做，作助动词可帮助构成疑问句、否定句。do homework 表示做作业。"
+  },
+  "has": {
+    "phonetic": "/hæz/",
+    "pos": "动词",
+    "note": "have 的第三人称单数形式。主语是 he、she、it 等时，常用 has 表示有。"
+  },
+  "does": {
+    "phonetic": "/dʌz/",
+    "pos": "动词；助动词",
+    "note": "do 的第三人称单数形式。用于一般现在时疑问句时，后面的主要动词用原形。"
+  },
+  "use": {
+    "phonetic": "/juːz/",
+    "pos": "动词",
+    "note": "这里表示使用，末尾发 /z/。名词 use 表示用途、使用，末尾通常发 /s/。",
+    "example": "I use a pencil to write.",
+    "translation": "我用铅笔写字。"
+  },
+  "learned": {
+    "phonetic": "/lɜːrnd/",
+    "pos": "动词过去式",
+    "note": "learn 的过去式或过去分词，表示学过、学会。表示博学的形容词读音不同。"
+  },
+  "wolves": {
+    "phonetic": "/wʊlvz/",
+    "pos": "名词（复数）"
+  },
+  "socks": {
+    "phonetic": "/sɑːks/",
+    "pos": "名词（复数）"
+  },
+  "cola": {
+    "phonetic": "/ˈkoʊlə/",
+    "pos": "名词"
+  },
+  "TV": {
+    "phonetic": "/ˌtiːˈviː/",
+    "pos": "名词"
+  },
+  "am": {
+    "phonetic": "/æm/",
+    "pos": "动词"
+  },
+  "is": {
+    "phonetic": "/ɪz/",
+    "pos": "动词"
+  },
+  "are": {
+    "phonetic": "/ɑːr/",
+    "pos": "动词"
+  },
+  "was": {
+    "phonetic": "/wɒz/",
+    "pos": "动词"
+  },
+  "were": {
+    "phonetic": "/wɜːr/",
+    "pos": "动词"
+  },
+  "had": {
+    "phonetic": "/hæd/",
+    "pos": "动词"
+  },
+  "did": {
+    "phonetic": "/dɪd/",
+    "pos": "动词"
+  },
+  "Beijing": {
+    "phonetic": "/ˌbeɪˈdʒɪŋ/",
+    "pos": "专有名词"
+  },
+  "internet": {
+    "phonetic": "/ˈɪntərnet/",
+    "pos": "名词"
+  },
+  "noodles": {
+    "phonetic": "/ˈnuːdəlz/"
+  },
+  "shoes": {
+    "phonetic": "/ʃuːz/"
+  },
+  "stairs": {
+    "phonetic": "/sterz/"
+  },
+  "theatre": {
+    "phonetic": "/ˈθiːətər/"
+  },
+  "bored": {
+    "phonetic": "/bɔːrd/"
+  },
+  "thanks": {
+    "phonetic": "/θæŋks/"
+  },
+  "website": {
+    "phonetic": "/ˈwebsaɪt/"
+  },
+  "seatbelt": {
+    "phonetic": "/ˈsiːtbelt/"
+  }
+}
