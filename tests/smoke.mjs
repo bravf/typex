@@ -11,8 +11,8 @@ await page.getByRole('switch',{name:'轻快音效'}).click();
 await page.getByRole('button',{name:'关闭',exact:true}).click();
 await page.reload();assert.equal(await page.getByRole('button',{name:'开启音效'}).count(),1);
 await page.clock.install();
-async function start(mode,sub){await page.locator('.mode-card.'+mode).click();if(sub==='hanzi')await page.getByRole('button',{name:/直接出汉字/}).click();await page.getByRole('button',{name:/准备好了/}).click();await page.clock.runFor(3100);await page.locator('.game-overlay').waitFor({state:'detached'});await page.clock.runFor(400);}
-async function leave(){await page.getByRole('button',{name:'暂停',exact:true}).click();await page.getByRole('button',{name:'结束本次练习',exact:true}).click();await page.getByRole('button',{name:'保存并结束',exact:true}).click();assert.match(await page.locator('.result-page h1').textContent(),/练习已记录/);await page.getByRole('button',{name:/回到小岛/}).click();}
+async function start(mode,sub){await page.locator('.mode-card.'+mode).click();await page.clock.runFor(700);if(sub==='hanzi')await page.getByRole('button',{name:/直接出汉字/}).click();await page.clock.runFor(400);await page.getByRole('button',{name:/准备好了/}).click();await page.clock.runFor(3100);await page.locator('.game-overlay').waitFor({state:'detached'});await page.clock.runFor(400);}
+async function leave(){await page.getByRole('button',{name:'暂停',exact:true}).click();await page.getByRole('button',{name:'结束本次练习',exact:true}).click();await page.getByRole('button',{name:'保存并结束',exact:true}).click();assert.match(await page.locator('.result-page h1').textContent(),/练习已记录/);await page.getByRole('button',{name:/回到小岛/}).click();await page.clock.runFor(700);}
 await start('keys');
 const key=await page.locator('.target-character').textContent();await page.keyboard.press(key==='a'?'b':'a');
 assert.equal(await page.locator('.game-dashboard>div').nth(1).locator('strong').textContent(),'0');

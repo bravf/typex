@@ -8,7 +8,7 @@
     "build": "tsc -b && vite build",
     "preview": "vite preview --host 127.0.0.1",
     "test": "vitest run",
-    "test:e2e": "node tests/smoke.mjs && node tests/learning.mjs && node tests/input-recovery.mjs"
+    "test:e2e": "node tests/smoke.mjs && node tests/learning.mjs && node tests/input-recovery.mjs && node tests/audio.mjs && node tests/audio-real.mjs"
   },
   "dependencies": {
     "lucide-react": "^0.468.0",

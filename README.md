@@ -51,7 +51,7 @@
 - jieba：`https://github.com/fxsjy/jieba`，MIT；按词频筛选常见搭配。
 - pypinyin：`https://github.com/mozillazg/python-pinyin`，MIT；词语中的带声调拼音。
 
-许可证保存在 `public/licenses/`。英语音标沿用来源并做字符规范化，可能包含不同口音；实际朗读调用浏览器和系统英语语音，不是预录音频。优先选用 Samantha，过滤 Albert 等效果音色，语速为正常的 0.96 倍；字词图书馆提供 apple、watermelon、library 三个试听入口。没有英语语音时会给出提示，需要在系统中安装对应声音。开放字典内容并非每条均完成教育编辑审核，复杂义项建议家长结合限定词语讲解。
+许可证保存在 `public/licenses/`。英语音标沿用来源并做字符规范化，可能包含不同口音；词库英语发音使用随站点部署的 Samantha 美式英语音频，不依赖 Windows 或浏览器安装的语音包；字词图书馆提供 apple、watermelon、library 三个试听入口。音频加载或播放失败会显示具体提示。开放字典内容并非每条均完成教育编辑审核，复杂义项建议家长结合限定词语讲解。
 
 生成脚本：`uv run --with pypinyin python scripts/build-library.py /path/to/source-cache`。缓存需包含 Chinese Dictionary 的 `char_common_base.json`、`detail.json`（逗号分隔对象格式），`default-pinyin.json`，jieba 的 `jieba-dict.txt`，CMU 的 `cmudict.json`，以及 ECDICT 的 `ecdict-full.csv`。选词、教学提示、现代释义及多音字覆盖保存在 `scripts/`，最终 JSON 随源码提交，日常开发不需要下载或重新生成。
 
@@ -59,7 +59,7 @@
 
 设置、题库展示进度和最近 200 局成绩保存在当前浏览器 localStorage。清除浏览器数据会删除记录，换浏览器/电脑不会同步；存储失败时仍可练习，历史成绩存储失败会提示。
 
-Vitest 覆盖评分迁移、题库完整性、范围组合、持久化和跨轮次不重复逻辑。Playwright 覆盖四条输入路径、错误与长按过滤、暂停、五分钟结算、持久化、词库搜索、朗读、知识卡暂停和移动布局。中文组合事件使用浏览器模拟；实际系统输入法和系统语音仍应在孩子使用的电脑上试用。
+Vitest 覆盖评分迁移、题库完整性、范围组合、持久化和跨轮次不重复逻辑。Playwright 覆盖四条输入路径、错误与长按过滤、暂停、五分钟结算、持久化、词库搜索、朗读、知识卡暂停和移动布局。中文组合事件使用浏览器模拟；实际系统输入法和扬声器输出仍应在孩子使用的电脑上试用。
 
 ## 阿里云部署
 
@@ -69,4 +69,8 @@ Vitest 覆盖评分迁移、题库完整性、范围组合、持久化和跨轮�
 
 HTTPS 使用 Let's Encrypt webroot 验证，证书路径 `/etc/letsencrypt/live/typex.mushayu.com/`；沿用现有 `certbot.timer` 和 Nginx reload hooks 自动续期。HTTP 自动跳转 HTTPS。可执行 `certbot renew --cert-name typex.mushayu.com --dry-run` 检查续期。
 
-浏览器设置、成绩与去重记录按域名分别保存，localhost 的数据不会自动出现在生产域名下；系统语音也取决于访问设备。
+浏览器设置、成绩与去重记录按域名分别保存，localhost 的数据不会自动出现在生产域名下；声音输出和音量取决于访问设备。
+
+音频播放：词库单词及现有例句优先播放本站 MP3 文件，无需 Windows 英语语音包；未收录的临时文本才使用系统朗读作为备用。音效等待 AudioContext 恢复后再调度，设置里可单独试听。失败会显示提示，各试听按钮只取消自己发起的播放。
+
+英语发音资源可用 macOS 的 Samantha 声音与 ffmpeg 通过 python3 scripts/build-audio.py 生成，覆盖词库词条和例句，资源随静态站点发布。src/recording.test.ts 验证完全没有系统语音接口时仍可调用文件播放；tests/audio.mjs 检查播放流程；tests/audio-real.mjs 可用 TYPEX_URL 指向线上，检查真实 MP3 加载、播放结束及非零音频信号。自动化播放事件不等于设备扬声器出声，实际音量由访问设备控制。
